@@ -2,6 +2,9 @@
 title: "Fortbildung zur 15. Landestagung der Informatiklehrer*innen in MV"
 date: 2023-07-19T14:56:27+02:00
 draft: false
+tags: ["Informatik", "Fortbildung", "Material"]
+author: "Peter Böttcher"
+summary: "Material und Informationen zu meiner Fortbildung Logikgatter verstehen."
 ---
 ## Worum es geht
 

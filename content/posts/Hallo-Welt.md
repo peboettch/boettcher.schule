@@ -2,6 +2,8 @@
 title: "Hallo Welt"
 date: 2023-07-19T14:32:53+02:00
 draft: false
+author: "Peter Böttcher"
+summary: "Alles fängt irgendwann mal an. Dies ist der erste Post auf dieser Seite."
 ---
 Alles fängt irgendwann mal an. Dies ist der erste Post auf dieser Seite.
 
