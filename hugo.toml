@@ -74,16 +74,3 @@ math = true
   hidden = true
   hiddenInList = true
   hiddenInSingle = true
-
-
-[[menu.main]]
-identifier = "posts"
-name = "Posts"
-url = "/posts/"
-weight = 10
-
-[[menu.main]]
-identifier = "imprint"
-name = "Impressum"
-url = "/Impressum.html"
-weight = 20
