@@ -1,0 +1,89 @@
+baseURL = 'https://boettcher.schule/'
+languageCode = 'de-de'
+title = 'boettcher.schule'
+theme = 'PaperMod'
+paginate = 5
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+title = "boettcher.schule"
+description = "Inhalte für Mathematik und Informatik am Gymnasium in M-V"
+keywords = [ "Blog", "Portfolio", "Schule" ]
+author = "Peter Böttcher"
+DateFormat = "2 January 2006"
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
+math = true
+
+  [params.assets]
+  favicon = "/favicon.ico"
+  apple_touch_icon = "/favicon.ico"
+  safari_pinned_tab = "/favicon.ico"
+
+  [params.profileMode]
+  enabled = false
+  title = "Böttcher.Schule"
+  subtitle = "Lehrer für Mathematik und Informatik am Gymnasium in M-V"
+  imageUrl = "/avatar.jpg"
+  imageWidth = 120
+  imageHeight = 120
+  imageTitle = "Peter Böttcher"
+
+    [[params.profileMode.buttons]]
+    name = "Posts"
+    url = "posts"
+
+    [[params.profileMode.buttons]]
+    name = "Tags"
+    url = "tags"
+
+  [params.homeInfoParams]
+  Title = "Hallo 👋"
+  Content = """
+  Hier findest du: 
+  - **Materialien 📚** aus und zu meinem Unterricht, sowie 
+  - andere Projekte, die irgendwie mit meiner **Arbeit**, **Mathematik 🧮** oder **Informatik 🤖** zusammenhängen."""
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/peboettch"
+
+  [params.cover]
+  hidden = true
+  hiddenInList = true
+  hiddenInSingle = true
+
+
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 10
+
+[[menu.main]]
+identifier = "imprint"
+name = "Impressum"
+url = "/Impressum.html"
+weight = 20
